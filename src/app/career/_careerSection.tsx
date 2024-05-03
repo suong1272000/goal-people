@@ -1,36 +1,47 @@
+import gsap from 'gsap';
+
 const CareerSection = () => {
+  gsap.from('#title', { y: -500, duration: 0.7 });
   return (
-    <div className="w-screen mt-16" style={{ height: '180vh' }}>
+    <div className="w-screen mt-16 h-120vh landscape:h-170vh">
       <div className="w-full h-full bg-white">
         <div className="w-full h-96 bg-career-bg bg-center bg-cover flex items-center justify-center">
           <div className="text-white flex flex-col items-center mt-12">
-            <h2 className="text-6xl py-6 font-Giants-Inline">Career</h2>
+            <h2 id="title" className="text-6xl py-6 font-Giants-Inline">
+              Career
+            </h2>
             <p className="font-semibold">경력</p>
           </div>
         </div>
         <div
-          className="max-w-screen-xl bg-white relative bottom-20  left-80 flex flex-col "
+          className="max-w-screen-xl bg-white relative bottom-20  left-80 flex flex-col max-2xl:items-center max-2xl:mx-auto max-2xl:left-0 "
           style={{ height: '65vh' }}
         >
           <div className="flex flex-col items-center mt-20">
             <p>골때리는 MZ축구 - 경력</p>
-            <h2 className="text-3xl mt-2 font-MaruBuri">경력 상황</h2>
+            <h2 className="text-3xl mt-2 font-MaruBuri max-2xl:text-5xl">
+              경력 상황
+            </h2>
           </div>
-          <div className="w-full mt-12  border border-solid border-zinc-300 border-t-0"></div>
+          <div className="w-full mt-12  border border-solid border-zinc-300 border-t-0 max-2xl:w-5/6"></div>
           <div className="w-full flex mt-32 justify-center">
             <div
               className="bg-player bg-cover bg-center mx-20"
               style={{ width: '400px', height: '600px' }}
             />
-            <div>
+            <div className="max-2xl:mx-20 max-2xl:text-center">
               <div className="flex flex-col my-20 text-zinc-600">
-                <p className="text-black font-bold">FC서울 홍길동</p>
+                <p className="text-black font-bold max-2xl:text-2xl">
+                  FC서울 홍길동
+                </p>
                 <p>나이 : 1998년생</p>
                 <p>출신학교 : 대신고</p>
                 <p>POSITION : FW 공격수</p>
               </div>
               <div>
-                <h2 className="mt-2 font-bold text-zinc-600">활동 경력</h2>
+                <h2 className="mt-2 font-bold text-zinc-600 max-2xl:text-2xl">
+                  활동 경력
+                </h2>
                 <p>fc서울 유스 12,15</p>
                 <p>tnt fc</p>
                 <p>대신고</p>
@@ -39,7 +50,7 @@ const CareerSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-5 mt-20 text-sm text-neutral-600  justify-center items-center">
+          <div className="flex flex-col gap-5 mt-20 text-sm text-neutral-600  justify-center items-center max-2xl:text-lg max-2xl:text-center max-2xl:mx-28">
             <p>
               제 레슨은 다른 레슨과는 좀 다르게 수강생과 많은 소통을 하면서 그냥
               정해진 프로그램만 하는 것이 아닌 작은 것 하나하나 편하게,재밌게

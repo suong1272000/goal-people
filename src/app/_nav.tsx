@@ -5,11 +5,11 @@ const NavBar = () => {
   return (
     <div className="bg-white text-black whitespace-nowrap py-5 px-auto fixed w-full top-0 z-10">
       <div className="max-w-screen-xl mx-auto justify-between items-center flex">
-        <div className="font-bold text-lg cursor-pointer font-Giants-Inline">
+        <div className="font-bold text-lg cursor-pointer font-Giants-Inline max-2xl:ml-20">
           <Link href="/">골때리는 MZ축구</Link>
         </div>
 
-        <ul className="flex items-center text-base mr-96">
+        <ul className="flex items-center text-base mr-96 max-2xl:mr-20">
           <li className="mx-8 hover:text-blue-500 transition-colors duration-300 cursor-pointer">
             <Link href="/">홈</Link>
           </li>

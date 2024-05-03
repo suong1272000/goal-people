@@ -13,6 +13,15 @@ module.exports = {
       MaruBuri: ['MaruBuri-Regular'],
     },
     extend: {
+      height: {
+        '400vh': '400vh',
+        '300vh': '300vh',
+        '200vh': '200vh',
+        '180vh': '180vh',
+        '170vh': '170vh',
+        '150vh': '150vh',
+        '120vh': '120vh',
+      },
       backgroundImage: {
         'soccer-1': "url('/img/soccer-1.jpg')",
         'soccer-2': "url('/img/soccer-2.jpg')",

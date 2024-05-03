@@ -3,10 +3,10 @@ import Link from 'next/link';
 const SecondSection = () => {
   return (
     <div
-      className="w-full py-24 bg-stone-300 text-black flex justify-center gap-x-6 "
+      className="w-full py-24 bg-stone-300 text-black flex justify-center gap-x-6 max-2xl:px-10"
       style={{ height: '400px' }}
     >
-      <div className="w-1/5 pt-6 bg-soccer-3 bg-center bg-cover shadow-xl bg-blend-overlay cursor-pointer">
+      <div className="w-1/5 pt-6 bg-soccer-3 bg-center bg-cover shadow-xl bg-blend-overlay cursor-pointer max-2xl:w-1/3">
         <Link href="/education">
           <p className="bg-zinc-800 text-white font-bold p-2 w-20 text-center ml-8 z-10 relative ">
             취미반
@@ -19,7 +19,7 @@ const SecondSection = () => {
           </p>
         </Link>
       </div>
-      <div className="w-1/5 pt-6 pb-36 bg-soccer-2 bg-center bg-cover shadow-xl cursor-pointer">
+      <div className="w-1/5 pt-6 pb-36 bg-soccer-2 bg-center bg-cover shadow-xl cursor-pointer max-2xl:w-1/3">
         <Link href="/education">
           <p className="bg-zinc-800 text-white font-bold p-2 w-20 text-center ml-8 z-10 relative">
             성인반
@@ -32,7 +32,7 @@ const SecondSection = () => {
           </p>
         </Link>
       </div>
-      <div className="w-1/5 pt-6 pb-36 bg-soccer-1 bg-center bg-cover shadow-xl cursor-pointer">
+      <div className="w-1/5 pt-6 pb-36 bg-soccer-1 bg-center bg-cover shadow-xl cursor-pointer max-2xl:w-1/3">
         <Link href="/education">
           <p className="bg-zinc-800 text-white font-bold p-2 w-20 text-center ml-8 z-10 relative">
             그룹반
