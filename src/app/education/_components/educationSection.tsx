@@ -1,7 +1,7 @@
 const EducationSection = () => {
   return (
-    <div className="w-screen mt-16 h-100vh">
-      <div className="w-full h-full bg-white max-2xl:h-300vh  max-lg:h-340vh landscape:h-400vh">
+    <div className="w-screen mt-16 max-2xl:h-300vh  max-lg:h-340vh landscape:h-400vh max-sm:h-400vh">
+      <div className="w-full h-full bg-white ">
         <div className="w-full h-96 bg-top-bg bg-center bg-cover flex items-center justify-center">
           <div className="text-white flex flex-col items-center mt-12">
             <h2 id="title" className="text-6xl py-6 font-Giants-Inline">

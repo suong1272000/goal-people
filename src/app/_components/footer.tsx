@@ -1,7 +1,7 @@
 import { RxDividerVertical } from 'react-icons/rx';
 const Footer = () => {
   return (
-    <div className="bg-gray-700 py-12 px-auto text-white relative origin-bottom w-full">
+    <div className="bg-gray-700 py-12 px-auto text-white relative origin-bottom w-full h-full">
       <div className="max-w-screen-xl mx-auto max-2xl:mx-20 max-lg:mx-5 max-sm:text-center">
         <div className="font-bold text-lg my-4 max-sm:my-1">
           골때리는 MZ축구
