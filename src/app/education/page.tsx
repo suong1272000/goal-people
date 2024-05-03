@@ -1,5 +1,5 @@
 'use client';
-import EducationSection from '../_educationSection';
+import EducationSection from './_components/educationSection';
 
 export default function Page() {
   return (
