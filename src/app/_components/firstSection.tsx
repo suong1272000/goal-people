@@ -1,9 +1,6 @@
-import gsap from 'gsap';
 import { TfiAngleDoubleDown } from 'react-icons/tfi';
 
 const FirstSection = () => {
-  // gsap.from('#titleText', { x: -1200, duration: 0.7 });
-  // gsap.from('#downIcon', { y: -40, duration: 1.5, repeat: -1, opacity: 0 });
   return (
     <div className="w-full h-screen mt-16">
       <div className="w-full h-full bg-bg-img bg-center bg-cover">

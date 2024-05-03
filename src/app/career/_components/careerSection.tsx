@@ -1,5 +1,3 @@
-import gsap from 'gsap';
-
 const CareerSection = () => {
   // gsap.from('#title', { y: -500, duration: 0.7 });
   return (

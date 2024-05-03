@@ -22,7 +22,7 @@ export default function RootLayout({
         <header>
           <NavBar />
         </header>
-        <section className="bg-black h-fit" style={{ marginTop: '68px' }}>
+        <section className="bg-black h-full " style={{ marginTop: '68px' }}>
           {children}
         </section>
         <footer>
