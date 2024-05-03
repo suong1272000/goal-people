@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 
 const EducationSection = () => {
-  gsap.from('#title', { y: -500, duration: 0.7 });
+  // gsap.from('#title', { y: -500, duration: 0.7 });
   return (
     <div className="w-screen mt-16 h-100vh ">
       <div className="w-full h-full bg-white max-2xl:h-300vh  max-lg:h-340vh landscape:h-400vh">

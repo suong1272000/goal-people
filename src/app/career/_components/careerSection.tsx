@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 
 const CareerSection = () => {
-  gsap.from('#title', { y: -500, duration: 0.7 });
+  // gsap.from('#title', { y: -500, duration: 0.7 });
   return (
     <div className="w-screen mt-16 h-120vh landscape:h-200vh max-lg:h-180vh max-sm:h-230vh">
       <div className="w-full h-full bg-white">

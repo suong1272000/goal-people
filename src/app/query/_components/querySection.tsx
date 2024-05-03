@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 
 const QuerySection = () => {
-  gsap.from('#title', { y: -500, duration: 0.7 });
+  // gsap.from('#title', { y: -500, duration: 0.7 });
   return (
     <div className="w-screen h-full mt-16 max-2xl:h-full landscape:h-150vh">
       <div className="w-full h-full bg-white">
