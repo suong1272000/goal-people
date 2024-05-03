@@ -1,4 +1,3 @@
-'use client';
 import gsap from 'gsap';
 import { TfiAngleDoubleDown } from 'react-icons/tfi';
 
