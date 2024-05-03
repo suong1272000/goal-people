@@ -1,7 +1,7 @@
 const CareerSection = () => {
   // gsap.from('#title', { y: -500, duration: 0.7 });
   return (
-    <div className="w-screen mt-16 h-120vh landscape:h-200vh max-lg:h-180vh max-sm:h-230vh">
+    <div className="w-screen mt-16 h-120vh landscape:h-200vh max-lg:h-180vh max-sm:h-300vh">
       <div className="w-full h-full bg-white">
         <div className="w-full h-96 bg-career-bg bg-center bg-cover flex items-center justify-center">
           <div className="text-white flex flex-col items-center mt-12">
