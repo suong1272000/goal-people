@@ -1,3 +1,4 @@
+'use client';
 import { RxDividerVertical } from 'react-icons/rx';
 const Footer = () => {
   return (
