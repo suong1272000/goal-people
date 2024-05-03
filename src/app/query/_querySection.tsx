@@ -19,16 +19,16 @@ const QuerySection = () => {
         >
           <div className="flex flex-col items-center mt-20">
             <p>골때리는 MZ축구</p>
-            <h2 className="text-3xl mt-2 font-MaruBuri max-2xl:text-5xl">
+            <h2 className="text-3xl mt-2 font-MaruBuri max-2xl:text-5xl max-sm:text-3xl">
               문의 및 신청
             </h2>
           </div>
           <div className="w-full mt-12  border border-solid border-zinc-300 border-t-0 max-2xl:w-5/6" />
           <div className="mx-20 my-10 text-center">
-            <h2 className="text-xl mb-10 lg:text-2xl max-2xl:mb-20   landscape:max-lg:mb-0">
+            <h2 className="text-xl mb-10 lg:text-2xl max-2xl:mb-20   landscape:max-lg:mb-0 max-sm:text-base max-sm:mb-0">
               수업에 대한 자세한 정보와 예약은 아래 연락처로 문의해주세요.
             </h2>
-            <div className="flex flex-col gap-3 max-2xl:text-2xl max-2xl:gap-10">
+            <div className="flex flex-col gap-3 max-2xl:text-2xl max-2xl:gap-10 max-sm:text-lg">
               <p>
                 전화번호: <br />
                 감독 010-9504-8871

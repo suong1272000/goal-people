@@ -3,7 +3,7 @@ import gsap from 'gsap';
 const CareerSection = () => {
   gsap.from('#title', { y: -500, duration: 0.7 });
   return (
-    <div className="w-screen mt-16 h-120vh landscape:h-200vh max-lg:h-180vh">
+    <div className="w-screen mt-16 h-120vh landscape:h-200vh max-lg:h-180vh max-sm:h-230vh">
       <div className="w-full h-full bg-white">
         <div className="w-full h-96 bg-career-bg bg-center bg-cover flex items-center justify-center">
           <div className="text-white flex flex-col items-center mt-12">
@@ -19,12 +19,12 @@ const CareerSection = () => {
         >
           <div className="flex flex-col items-center mt-20">
             <p>골때리는 MZ축구 - 경력</p>
-            <h2 className="text-3xl mt-2 font-MaruBuri max-2xl:text-5xl">
+            <h2 className="text-3xl mt-2 font-MaruBuri max-2xl:text-5xl max-sm:text-3xl">
               경력 상황
             </h2>
           </div>
           <div className="w-full mt-12  border border-solid border-zinc-300 border-t-0 max-2xl:w-5/6"></div>
-          <div className="w-full flex mt-32 justify-center max-lg:flex max-lg:flex-col max-lg:items-center">
+          <div className="w-full flex mt-32 justify-center max-lg:flex max-lg:flex-col max-lg:items-center max-sm:mt-10">
             <div
               className="bg-player bg-cover bg-center mx-20 "
               style={{ width: '400px', height: '600px' }}
@@ -50,7 +50,7 @@ const CareerSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-5 mt-20 text-sm text-neutral-600  justify-center items-center max-2xl:text-lg max-2xl:text-center max-2xl:mx-28">
+          <div className="flex flex-col gap-5 mt-20 text-sm text-neutral-600  justify-center items-center max-2xl:text-lg max-2xl:text-center max-2xl:mx-28 max-sm:mx-4 max-sm:text-base">
             <p>
               제 레슨은 다른 레슨과는 좀 다르게 수강생과 많은 소통을 하면서 그냥
               정해진 프로그램만 하는 것이 아닌 작은 것 하나하나 편하게,재밌게
