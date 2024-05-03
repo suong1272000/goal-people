@@ -3,7 +3,7 @@ import gsap from 'gsap';
 const CareerSection = () => {
   gsap.from('#title', { y: -500, duration: 0.7 });
   return (
-    <div className="w-screen mt-16 h-120vh landscape:h-170vh">
+    <div className="w-screen mt-16 h-120vh landscape:h-200vh max-lg:h-180vh">
       <div className="w-full h-full bg-white">
         <div className="w-full h-96 bg-career-bg bg-center bg-cover flex items-center justify-center">
           <div className="text-white flex flex-col items-center mt-12">
@@ -24,12 +24,12 @@ const CareerSection = () => {
             </h2>
           </div>
           <div className="w-full mt-12  border border-solid border-zinc-300 border-t-0 max-2xl:w-5/6"></div>
-          <div className="w-full flex mt-32 justify-center">
+          <div className="w-full flex mt-32 justify-center max-lg:flex max-lg:flex-col max-lg:items-center">
             <div
-              className="bg-player bg-cover bg-center mx-20"
+              className="bg-player bg-cover bg-center mx-20 "
               style={{ width: '400px', height: '600px' }}
             />
-            <div className="max-2xl:mx-20 max-2xl:text-center">
+            <div className="max-2xl:mx-20 max-2xl:text-center ">
               <div className="flex flex-col my-20 text-zinc-600">
                 <p className="text-black font-bold max-2xl:text-2xl">
                   FC서울 홍길동

@@ -2,7 +2,7 @@ import { RxDividerVertical } from 'react-icons/rx';
 const Footer = () => {
   return (
     <div className="bg-gray-700 py-12 px-auto text-white">
-      <div className="max-w-screen-xl mx-auto lg:mx-20">
+      <div className="max-w-screen-xl mx-auto max-2xl:mx-20 max-lg:mx-5">
         <div className="font-bold text-lg my-4">골때리는 MZ축구</div>
         <div className="flex items-center text-gray-400 font-medium text-sm">
           <span>대표: 홍길동</span>

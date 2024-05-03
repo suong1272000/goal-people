@@ -41,7 +41,7 @@ const SecondSection = () => {
             className="text-white font-bold text-xl text-center font-WavvePADO font-light flex justify-center  bg-black bg-opacity-50  flex relative bottom-16 items-center h-4 w-full z-0 flex-col"
             style={{ height: '208px' }}
           >
-            <p>4명~</p>
+            <p className="max-lg:mt-5">4명~</p>
             <p>1회 기준 2만원</p>
             <p>단, 6명 이상 1만원 할인</p>
           </div>

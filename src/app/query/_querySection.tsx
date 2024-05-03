@@ -3,7 +3,7 @@ import gsap from 'gsap';
 const QuerySection = () => {
   gsap.from('#title', { y: -500, duration: 0.7 });
   return (
-    <div className="w-screen h-screen mt-16 max-2xl:h-full">
+    <div className="w-screen h-full mt-16 max-2xl:h-full landscape:h-150vh">
       <div className="w-full h-full bg-white">
         <div className="w-full h-96 bg-ask-bg bg-center bg-cover flex items-center justify-center">
           <div className="text-white flex flex-col items-center mt-12">
@@ -25,7 +25,7 @@ const QuerySection = () => {
           </div>
           <div className="w-full mt-12  border border-solid border-zinc-300 border-t-0 max-2xl:w-5/6" />
           <div className="mx-20 my-10 text-center">
-            <h2 className="text-xl mb-10 lg:text-2xl max-2xl:mb-20">
+            <h2 className="text-xl mb-10 lg:text-2xl max-2xl:mb-20   landscape:max-lg:mb-0">
               수업에 대한 자세한 정보와 예약은 아래 연락처로 문의해주세요.
             </h2>
             <div className="flex flex-col gap-3 max-2xl:text-2xl max-2xl:gap-10">

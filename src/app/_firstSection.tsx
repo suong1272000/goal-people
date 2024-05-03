@@ -7,7 +7,7 @@ const FirstSection = () => {
   return (
     <div className="w-full h-screen mt-16">
       <div className="w-full h-full bg-bg-img bg-center bg-cover">
-        <div className="mt-14 text-white relative top-1/4">
+        <div className="mt-14 text-white relative top-1/4 max-lg:mx-10">
           <p
             id="titleText"
             className="text-7xl font-medium tracking-tight text-center font-Giants-Inline mb-10"

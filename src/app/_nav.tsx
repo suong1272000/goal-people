@@ -9,7 +9,7 @@ const NavBar = () => {
           <Link href="/">골때리는 MZ축구</Link>
         </div>
 
-        <ul className="flex items-center text-base mr-96 max-2xl:mr-20">
+        <ul className="flex items-center text-base mr-96 max-2xl:mr-20 max-lg:mr-10">
           <li className="mx-8 hover:text-blue-500 transition-colors duration-300 cursor-pointer">
             <Link href="/">홈</Link>
           </li>

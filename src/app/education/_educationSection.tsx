@@ -3,8 +3,8 @@ import gsap from 'gsap';
 const EducationSection = () => {
   gsap.from('#title', { y: -500, duration: 0.7 });
   return (
-    <div className="w-screen mt-16 h-300vh landscape:max-2xl:h-400vh">
-      <div className="w-full h-full bg-white">
+    <div className="w-screen mt-16 h-100vh ">
+      <div className="w-full h-full bg-white max-2xl:h-300vh landscape:h-460vh max-lg:h-340vh">
         <div className="w-full h-96 bg-top-bg bg-center bg-cover flex items-center justify-center">
           <div className="text-white flex flex-col items-center mt-12">
             <h2 id="title" className="text-6xl py-6 font-Giants-Inline">
