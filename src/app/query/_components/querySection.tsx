@@ -1,6 +1,6 @@
 const QuerySection = () => {
   return (
-    <div className="w-screen h-full mt-16 max-2xl:h-full landscape:h-150vh">
+    <div className="w-screen h-full mt-16 max-2xl:h-full landscape:h-150vh max-sm:h-150vh">
       <div className="w-full h-full bg-white">
         <div className="w-full h-96 bg-ask-bg bg-center bg-cover flex items-center justify-center">
           <div className="text-white flex flex-col items-center mt-12">
