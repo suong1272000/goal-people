@@ -14,8 +14,6 @@ export const metadata: Metadata = {
     '축구 레슨, 축구, MZ축구, 서울, 경기도, 김포, 현역 축구 선수, 코칭, 실력 향상, 리더십, 역동적',
   openGraph: {
     title: '골때리는 MZ축구',
-    description:
-      '지금, 현역 선수와 함께하는 MZ축구 레슨으로 실력 향상의 기회를 놓치지 마세요!',
     type: 'website',
     url: 'https://goal-people.vercel.app/',
     images: '/img/player.jpg',
