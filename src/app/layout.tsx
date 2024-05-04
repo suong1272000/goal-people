@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       '지금, 현역 선수와 함께하는 MZ축구 레슨으로 실력 향상의 기회를 놓치지 마세요!',
     type: 'website',
     url: 'https://goal-people.vercel.app/',
-    images: 'player',
+    images: '/img/player.jpg',
   },
 };
 
