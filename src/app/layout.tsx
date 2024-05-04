@@ -16,12 +16,6 @@ export const metadata: Metadata = {
     title: '골때리는 MZ축구',
     type: 'website',
     url: 'https://goal-people.vercel.app/',
-    images: [
-      {
-        url: '/img/player.jpg',
-        alt: '이미지 설명',
-      },
-    ],
   },
 };
 
