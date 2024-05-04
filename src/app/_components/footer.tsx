@@ -7,11 +7,11 @@ const Footer = () => {
           골때리는 MZ축구
         </div>
         <div className="flex items-center text-gray-400 font-medium text-sm max-sm:flex-col">
-          <span>대표: 홍길동</span>
+          <span>대표: 이성운</span>
           <RxDividerVertical />
           <span>황금네 근린공원(풋살장)</span>
           <RxDividerVertical />
-          <span>전화번호:010-9504-8871</span>
+          <a href="tel:010-9504-8871">전화번호:010-9504-8871</a>
           <RxDividerVertical />
           <span>오픈채팅방:https://open.kakao.com/o/guT7Z6kg </span>
         </div>

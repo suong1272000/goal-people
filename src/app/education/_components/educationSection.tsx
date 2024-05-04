@@ -69,8 +69,12 @@ const EducationSection = () => {
               <div className="border-y border-r border-gray-200 p-4 border-l-0 font-bold max-2xl:text-lg max-sm:text-sm">
                 1회권
               </div>
-              <div className="border-y border-r border-gray-200 p-4">3만원</div>
-              <div className="border-y border-r border-gray-200 p-4">3만원</div>
+              <div className="border-y border-r border-gray-200 p-4">
+                3.5만원
+              </div>
+              <div className="border-y border-r border-gray-200 p-4">
+                3.5만원
+              </div>
               <div className="border-y border-gray-200 p-4">
                 2만원(6명 이상 1만원 할인)
               </div>
@@ -78,27 +82,27 @@ const EducationSection = () => {
                 5회권
               </div>
               <div className="border-b border-r border-gray-200 p-4">
-                11만원
+                15만원
               </div>
               <div className="border-b border-r border-gray-200 p-4">
-                11만원
+                15만원
               </div>
               <div className="border-b border-gray-200 p-4">-</div>
               <div className="border-b border-r border-gray-200 p-4 border-l-0 font-bold max-2xl:text-lg max-sm:text-sm">
                 10회권
               </div>
               <div className="border-b border-r border-gray-200 p-4">
-                22.5만원
+                27만원
               </div>
               <div className="border-b border-r border-gray-200 p-4">
-                22.5만원
+                27만원
               </div>
               <div className="border-b border-gray-200 p-4">-</div>
               <div className="border-r border-gray-200 p-4 border-l-0 font-bold max-2xl:text-lg max-sm:text-sm">
                 15회권
               </div>
-              <div className="border-r border-gray-200 p-4">32.5만원</div>
-              <div className="border-r border-gray-200 p-4">32.5만원</div>
+              <div className="border-r border-gray-200 p-4">40만원</div>
+              <div className="border-r border-gray-200 p-4">40만원</div>
               <div className="border-gray-200 p-4">-</div>
             </div>
           </div>

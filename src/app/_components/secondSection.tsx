@@ -14,7 +14,7 @@ const SecondSection = () => {
             className="text-white font-bold text-xl text-center font-WavvePADO font-light flex justify-center  bg-black bg-opacity-50  flex relative bottom-16 items-center h-4 w-full z-0"
             style={{ height: '208px' }}
           >
-            1회기준 3만원
+            1회기준 3.5만원
           </p>
         </Link>
       </div>
@@ -27,7 +27,7 @@ const SecondSection = () => {
             className="text-white font-bold text-xl text-center font-WavvePADO font-light flex justify-center  bg-black bg-opacity-50  flex relative bottom-16 items-center h-4 w-full z-0"
             style={{ height: '208px' }}
           >
-            1회기준 3만원
+            1회기준 3.5만원
           </p>
         </Link>
       </div>

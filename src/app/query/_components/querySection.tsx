@@ -28,12 +28,16 @@ const QuerySection = () => {
             <div className="flex flex-col gap-3 max-2xl:text-2xl max-2xl:gap-10 max-sm:text-lg">
               <p>
                 전화번호: <br />
-                감독 010-9504-8871
-                <br /> 코치 010-5221-8407
+                <a href="tel:010-9504-8871">감독: 이성운 010-9504-8871</a>
+                <br />
+                <a href="tel:010-5221-8407">코치: 이승민 010-5221-8407</a>
               </p>
               <p>
                 오픈채팅방:
-                <br /> https://open.kakao.com/o/guT7Z6kg
+                <br />{' '}
+                <a href="https://open.kakao.com/o/guT7Z6kg" target="_blank">
+                  https://open.kakao.com/o/guT7Z6kg
+                </a>
               </p>
               <p className="mt-5 font-semibold">
                 지금 참여하고, 함께 성장해나가는 축구 레슨 수업에 함께해보세요!

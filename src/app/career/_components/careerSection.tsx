@@ -25,16 +25,15 @@ const CareerSection = () => {
           <div className="w-full flex mt-32 justify-center max-lg:flex max-lg:flex-col max-lg:items-center max-sm:mt-10">
             <div
               className="bg-player bg-cover bg-center mx-20 "
-              style={{ width: '400px', height: '600px' }}
+              style={{ width: '340px', height: '600px' }}
             />
             <div className="max-2xl:mx-20 max-2xl:text-center ">
               <div className="flex flex-col my-20 text-zinc-600">
                 <p className="text-black font-bold max-2xl:text-2xl">
-                  FC서울 홍길동
+                  FC서울 이성운
                 </p>
                 <p>나이 : 1998년생</p>
                 <p>출신학교 : 대신고</p>
-                <p>POSITION : FW 공격수</p>
               </div>
               <div>
                 <h2 className="mt-2 font-bold text-zinc-600 max-2xl:text-2xl">
@@ -43,6 +42,12 @@ const CareerSection = () => {
                 <p>fc서울 유스 12,15</p>
                 <p>tnt fc</p>
                 <p>대신고</p>
+                <p>엘리트선수 레슨</p>
+                <p>최우수 선수상</p>
+                <p>리그 우승</p>
+                <p>각종 대회 3위</p>
+                <p>유소년 생활체육 코칭</p>
+                <p>스포츠재활학과 졸업</p>
               </div>
             </div>
           </div>
